@@ -29,9 +29,11 @@ spec:
         - containerPort: 80
         env:
         - name: USERPROFILE_API_ENDPOINT
-          value: "http://userprofile.api.svc.cluster.local"
+          value: "http://userprofile:8091"
         - name: TRIPS_API_ENDPOINT
-          value: "http://trips.api.svc.cluster.local"
+          value: "http://trips:8081"
+        - name: BING_MAPS_KEY
+          value: "ArcobhjSCeo7RKl3m2yuJ5gbV6yazVEResPBEeFeOuyHu_nSk3Fqrc4Rea2ldwNw"
 ---
 apiVersion: v1
 kind: Service

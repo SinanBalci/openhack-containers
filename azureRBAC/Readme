@@ -1,0 +1,10 @@
+
+{
+  "appId": "67a8dc6c-c79e-46f0-87f7-d5d997f4a78a",
+  "displayName": "azure-cli-2020-08-12-13-45-15",
+  "name": "http://azure-cli-2020-08-12-13-45-15",
+  "password": "cwyR7Lz2F5BUJSHP9A9Zm6coCuGxj~UFUk",
+  "tenant": "b6995c8f-8cfc-4e17-8898-892cb00eb98a"
+}
+
+az role assignment create --assignee 67a8dc6c-c79e-46f0-87f7-d5d997f4a78a --scope /subscriptions/89eb5de7-be0a-4488-8b3a-a78358b2d3bb/resourceGroups/teamResources/providers/Microsoft.Network/virtualNetworks/vnet/subnets/vm-subnet --role Contributor
